@@ -1,0 +1,25 @@
+{
+  "name": "marine-repairs-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NekkieDev/Marine-Repairs-Website.git"
+  },
+  "keywords": [
+    "repairs",
+    "boats"
+  ],
+  "author": "Valter F",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/NekkieDev/Marine-Repairs-Website/issues"
+  },
+  "homepage": "https://github.com/NekkieDev/Marine-Repairs-Website#readme"
+}
