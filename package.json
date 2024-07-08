@@ -17,9 +17,9 @@
     "ts-jest": "^29.2.0"
   },
   "scripts": {
-    "build": "yarn tsc && ",
-    "prod": "yarn tsc && node dist/app.js",
-    "dev": "yarn nodemon -e ts --exec \"yarn run\""
+    "build": "yarn tsc && yarn jest",
+    "start": "yarn tsc && node dist/app.js",
+    "dev": "yarn nodemon -e ts --exec \"yarn start\""
   },
   "repository": {
     "type": "git",
