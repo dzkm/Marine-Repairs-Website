@@ -12,10 +12,14 @@
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "jest": "^29.7.0",
-    "tailwindcss": "^3.4.4"
+    "nodemon": "^3.1.4",
+    "tailwindcss": "^3.4.4",
+    "ts-jest": "^29.2.0"
   },
   "scripts": {
-    "test": "yarn test"
+    "build": "yarn tsc && ",
+    "prod": "yarn tsc && node dist/app.js",
+    "dev": "yarn nodemon -e ts --exec \"yarn run\""
   },
   "repository": {
     "type": "git",
