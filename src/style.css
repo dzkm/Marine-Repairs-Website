@@ -26,12 +26,23 @@ body{
     color: #ffffff;
     }
 
-    .dark{
+    #contact-us{
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+    width: 100%;
     padding: 15px;
     background: #35424a;
     color: #ffffff;
     margin-top: 10px;
     margin-bottom: 10px;
+    }
+
+    .feedback{
+        margin-right: auto;
+        display: block;
+        margin-left: 0;
+        width: 100%;
     }
     
     /* Header */
@@ -137,16 +148,12 @@ body{
     
     /* Sidebar */
     aside#sidebar{
+    position: relative;
     float: right;
     width: 30%;
     margin-top: 10px;
     }
-    
-    aside#sidebar .feedback input, aside#sidebar .feedback textarea{
-    width: 90%;
-    padding: 5px;
-    }
-    
+
     /* Main col */
     article#main-col{
     float: left;
