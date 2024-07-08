@@ -1,0 +1,20 @@
+# Git
+.gitignore
+README.md
+
+# Project
+node_modules
+package.json
+*.lock
+
+# Build
+dist
+
+# Logs
+*.log
+
+# Configurations
+*.config.js
+*.config.mjs
+.env
+.env_example
