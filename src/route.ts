@@ -6,5 +6,6 @@ const router = Router();
 router.get("/", controller.getHomeController);
 router.get("/gallery", controller.getGalleryController);
 router.post("/send_contact", controller.postSendContactController);
+router.all("*", controller.allNotFoundController);
 
 export default router;

@@ -12,4 +12,13 @@ function postSendContactController(req: Request, res: Response) {
   res.send("Send Form");
 }
 
-export { getHomeController, getGalleryController, postSendContactController };
+function allNotFoundController(req: Request, res: Response) {
+  res.sendFile("404.html", { root: "public" });
+}
+
+export {
+  getHomeController,
+  getGalleryController,
+  postSendContactController,
+  allNotFoundController,
+};
