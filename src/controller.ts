@@ -13,7 +13,7 @@ function postSendContactController(req: Request, res: Response) {
 }
 
 function allNotFoundController(req: Request, res: Response) {
-  res.sendFile("404.html", { root: "public" });
+  res.status(404).sendFile("404.html", { root: "public" });
 }
 
 export {

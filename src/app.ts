@@ -6,4 +6,4 @@ app.use(express.json());
 
 app.use(router);
 
-app.listen(8080, () => console.log("server running on port 8080"));
+export default app;
